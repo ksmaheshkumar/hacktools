@@ -4,8 +4,27 @@
   "description": "Tools for hacking using nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./bin/clitutorial -h"
   },
   "author": "@CBJonatanSantos",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.2.0",
+    "msfjs": "0.0.3",
+    "port-scanner": "0.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oscmejia/tutorial-nodejs-cli"
+  },
+  "keywords": [
+    "CLI",
+    "hack",
+    "exploit",
+    "pentest",
+    "wrapper",
+    "net",
+    "scan",
+    "port"
+  ]
 }
