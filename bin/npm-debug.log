@@ -1,0 +1,81 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'hacktools' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'hacktools', null ]
+6 verbose cache add name=undefined spec="hacktools" args=["hacktools",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'hacktools',
+7 verbose parsed url   path: 'hacktools',
+7 verbose parsed url   href: 'hacktools' }
+8 silly lockFile b3a2d4ca-hacktools hacktools
+9 verbose lock hacktools /root/.npm/b3a2d4ca-hacktools.lock
+10 verbose chmod /root/tmp/npm-12236-IzdRZXMh/1400292129674-0.4015054802875966/tmp.tgz 644
+11 verbose tar unpack /root/tmp/npm-12236-IzdRZXMh/1400292129674-0.4015054802875966/tmp.tgz
+12 silly lockFile 12bf0793-29674-0-4015054802875966-package tar:///root/tmp/npm-12236-IzdRZXMh/1400292129674-0.4015054802875966/package
+13 verbose lock tar:///root/tmp/npm-12236-IzdRZXMh/1400292129674-0.4015054802875966/package /root/.npm/12bf0793-29674-0-4015054802875966-package.lock
+14 silly lockFile 09ade161-29674-0-4015054802875966-tmp-tgz tar:///root/tmp/npm-12236-IzdRZXMh/1400292129674-0.4015054802875966/tmp.tgz
+15 verbose lock tar:///root/tmp/npm-12236-IzdRZXMh/1400292129674-0.4015054802875966/tmp.tgz /root/.npm/09ade161-29674-0-4015054802875966-tmp-tgz.lock
+16 silly gunzTarPerm modes [ '755', '644' ]
+17 error not a package /root/tmp/npm-12236-IzdRZXMh/1400292129674-0.4015054802875966/tmp.tgz
+18 silly lockFile 12bf0793-29674-0-4015054802875966-package tar:///root/tmp/npm-12236-IzdRZXMh/1400292129674-0.4015054802875966/package
+19 silly lockFile 12bf0793-29674-0-4015054802875966-package tar:///root/tmp/npm-12236-IzdRZXMh/1400292129674-0.4015054802875966/package
+20 silly lockFile 09ade161-29674-0-4015054802875966-tmp-tgz tar:///root/tmp/npm-12236-IzdRZXMh/1400292129674-0.4015054802875966/tmp.tgz
+21 silly lockFile 09ade161-29674-0-4015054802875966-tmp-tgz tar:///root/tmp/npm-12236-IzdRZXMh/1400292129674-0.4015054802875966/tmp.tgz
+22 silly lockFile b3a2d4ca-hacktools hacktools
+23 silly lockFile b3a2d4ca-hacktools hacktools
+24 verbose addNamed [ 'hacktools', '' ]
+25 verbose addNamed [ null, '*' ]
+26 silly lockFile 3a5882c1-hacktools hacktools@
+27 verbose lock hacktools@ /root/.npm/3a5882c1-hacktools.lock
+28 silly addNameRange { name: 'hacktools', range: '*', hasData: false }
+29 verbose url raw hacktools
+30 verbose url resolving [ 'https://registry.npmjs.org/', './hacktools' ]
+31 verbose url resolved https://registry.npmjs.org/hacktools
+32 info trying registry request attempt 1 at 23:02:09
+33 http GET https://registry.npmjs.org/hacktools
+34 http 404 https://registry.npmjs.org/hacktools
+35 silly registry.get cb [ 404,
+35 silly registry.get   { date: 'Sat, 17 May 2014 02:02:28 GMT',
+35 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+35 silly registry.get     etag: '"DNMKANZVTRVGWGGMVLZHQW0H8"',
+35 silly registry.get     'content-type': 'application/json',
+35 silly registry.get     via: '1.1 varnish',
+35 silly registry.get     'cache-control': 'max-age=0',
+35 silly registry.get     'content-length': '465',
+35 silly registry.get     'accept-ranges': 'bytes',
+35 silly registry.get     age: '0',
+35 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-at50-ATL',
+35 silly registry.get     'x-cache': 'MISS, MISS',
+35 silly registry.get     'x-cache-hits': '0, 0',
+35 silly registry.get     'x-timer': 'S1400292148.586827517,VS0,VS4,VE79,VE90',
+35 silly registry.get     vary: 'Accept',
+35 silly registry.get     'keep-alive': 'timeout=10, max=50',
+35 silly registry.get     connection: 'Keep-Alive' } ]
+36 silly addNameRange number 2 { name: 'hacktools', range: '*', hasData: true }
+37 silly addNameRange versions [ 'hacktools', [] ]
+38 error TypeError: Cannot read property 'latest' of undefined
+38 error     at next (/usr/lib/node_modules/npm/lib/cache.js:744:35)
+38 error     at /usr/lib/node_modules/npm/lib/cache.js:732:5
+38 error     at saved (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:148:7)
+38 error     at /usr/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:133:7
+38 error     at Object.oncomplete (fs.js:107:15)
+39 error If you need help, you may report this *entire* log,
+39 error including the npm and node versions, at:
+39 error     <http://github.com/npm/npm/issues>
+40 error System Linux 3.13.0-24-generic
+41 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "hacktools"
+42 error cwd /home/jonatan/Documents/github/hacktools/bin
+43 error node -v v0.10.26
+44 error npm -v 1.4.3
+45 error type non_object_property_load
+46 verbose exit [ 1, true ]
